@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lily's Slightly Super Epic Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome Lily. I've been expecting you. Please enjoy your gaming experience.</h1>
+    <button id="startButton">Start your gaming experience</button>
+    
+    <div id="game" style="display:none;">
+        <p id="question"></p>
+        <button class="game-button" id="yes">Yes</button>
+        <button class="game-button" id="no">No</button>
+        <p id="message"></p>
+    </div>
+
+    <div id="result" style="display:none;">
+        <p>Are you ready to hear the results of your questions?</p>
+        <button class="game-button" id="resultYes">Yes</button>
+        <button class="game-button" id="resultNo">No</button>
+    </div>
+
+    <div id="finalMessage" style="display:none;">
+        <p>Congratulations! Your name is Lily and you are 100% without a shadow of a doubt very LESBIAN. Thanks for playing!</p>
+        <div id="boxGame">
+            <p>Click on the boxes to earn points!</p>
+            <div id="boxes"></div>
+            <p id="score">Score: 0</p>
+        </div>
+    </div>
+
+    <div id="fireworks-container"></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fireworks-js@2.10.1/dist/index.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
